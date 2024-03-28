@@ -1,0 +1,18 @@
+{
+  "imports": {
+    "std/": "https://deno.land/std#0.216.0/"
+  },
+  "tasks": {
+    "dev": "deno run --unsafely-ignore-certificate-errors --allow-net --allow-env --allow-sys --allow-read --watch app.ts"
+  },
+  "fmt": {
+    "useTabs": true,
+    "lineWidth": 80,
+    "indentWidth": 4,
+    "semiColons": true,
+    "singleQuote": true,
+    "proseWrap": "preserve",
+    "include": ["src/"],
+    "exclude": ["src/testdata/", "data/fixtures/**/*.ts"]
+  }
+}
