@@ -3,7 +3,7 @@
     "std/": "https://deno.land/std#0.216.0/"
   },
   "tasks": {
-    "dev": "deno run --unsafely-ignore-certificate-errors --allow-net --allow-env --allow-sys --allow-read --watch app.ts"
+    "dev": "deno run --unstable --allow-env --allow-run --allow-net --allow-read app.ts"
   },
   "fmt": {
     "useTabs": true,
